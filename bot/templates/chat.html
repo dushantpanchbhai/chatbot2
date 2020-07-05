@@ -15,10 +15,12 @@
             {% for i in ans%}
               <br>
               {%if forloop.counter0|divisibleby:2 %}
+              {%if i != "NULL"%}
               <div class="chat-self">
-                    <div class="user-photo" ><img class="padder1" src="{% static 'user.png' %}" height="50" width="55" ></div>
+                    <div class="user-photo" ><img class="padder1" src="{% static 'user.png' %}" height="45" width="40" ></div>
                     <p class="chat-message"> {{i}} </p>
               </div>
+              {%endif%}
              <br>
              {%else%}
              <div class="chat-friend">

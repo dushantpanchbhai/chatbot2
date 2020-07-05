@@ -10,6 +10,20 @@
   box-shadow: 0 0 8px 0 dodgerBlue;
   transition:.3s;
 }
+
+.dusp{
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 2.5px solid #aaa;
+  width: 50%;
+  padding: 10px;
+  outline=none;
+  margin: 8px 0;
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+  transition:.3s;
+}
+
 .co{
   width: 100%;
   padding: 10px;
@@ -179,11 +193,27 @@
 }
 
 .padder1{
-  margin-left: 2.5px;
+  margin-top: 5px;
+  margin-left: 9px;
 }
 
 
 .padder2{
   margin-left: 4px;
+  border-radius: 25px;
   margin-top: 3px;
+}
+
+.searchform1{
+  box-sizing: border-box;
+  border: 2.5px solid #aaa;
+  width: 100%;
+  padding: 10px;
+  outline=none;
+  margin: 8px 0;
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+  transition:.3s;
+  margin-bottom: 0%;
+  resize: none;
 }

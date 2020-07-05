@@ -9,7 +9,6 @@ from googlesearch import search
 from bs4 import BeautifulSoup
 import yaml
 import requests
-#------
 import nltk
 import warnings
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -19,9 +18,10 @@ warnings.filterwarnings('ignore')
 nlp = spacy.load('en_core_web_sm')
 remove_punct_dict = dict(  (ord(punct), None) for punct in string.punctuation)
 
-
 output=sys.argv[1]
 
+import os
+path1=os.getcwd()+"/chatbot/greeting.yml"
 
 def chatbot_query(question, index=0):
     q1=nlp(question)
@@ -92,7 +92,8 @@ def chatbot_query(question, index=0):
     return result
 
 def filter(question):
-    a_yaml_file = open("/home/dushant/Desktop/django/chatbot/chatbot/greeting.yml")
+    #a_yaml_file = open("/home/dushant/Desktop/django/chatbot2/chatbot/greeting.yml")
+    a_yaml_file = open(path1)
     par = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
     q=nlp(question)
     cd=0
