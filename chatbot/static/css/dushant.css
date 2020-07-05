@@ -94,9 +94,6 @@
   height: 60px;
   background: #ccc;
   border-radius: 60%;
-
-
-
 }
 
 .chat-friend .chat-message{
@@ -175,4 +172,18 @@
 
 .inline-block {
    display: inline-block;
+}
+
+.padder{
+  margin-left: 10px;
+}
+
+.padder1{
+  margin-left: 2.5px;
+}
+
+
+.padder2{
+  margin-left: 4px;
+  margin-top: 3px;
 }
