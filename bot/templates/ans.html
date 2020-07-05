@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block content%}
+<section class="jumbotron">
+<div class="container">
+  <div class="jumbotron text-center">
+  <h3>{{ name }}</h3>
+</div>
+</div>
+    <div class="container">
+
+
+
+                  
+
+
+      <form action="" method="post">
+        {% csrf_token %}
+        <br>
+        <img src='{%static "user.png"%}' height="30" width="30" />
+        <input class="dus" type="text" name="box" placeholder="input text here" required size="3122"/>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+{%endblock%}

@@ -1,0 +1,55 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block content%}
+
+<section class="jumbotron">
+<div class="container">
+  <div class="jumbotron text-center">
+<h1   > Hi, {{ name }}!</h1>
+</div>
+</div>
+
+    <div class="chatbox">
+
+      <div class="chatlogs">
+            {% for i in ans%}
+              <br>
+              {%if forloop.counter0|divisibleby:2 %}
+              <div class="chat-self">
+                    <div class="user-photo" ><img src="{% static 'user.png' %}"  height="50" width="55" ></div>
+                    <p class="chat-message"> {{i}} </p>
+              </div>
+             <br>
+             {%else%}
+             <div class="chat-friend">
+                  <div class="user-photo" ><img src="{% static 'bot.png' %}" height="50" width="50" ></div>
+                  <p class="chat-message">{{i}}</p>
+            </div>
+             <br>
+             {%endif%}
+           {% endfor %}
+
+      </div>
+
+        <div class="chat-form">
+          <form action="{% url 'chat'%}" method="post">
+          {%csrf_token%}
+          <input class="dus" type="text" name="box" placeholder="Ask a query here..." / >
+          <div class="inline-block">
+          <input type="image" src="{% static 'send_icon.png' %}" alt="Submit" width="30" height="30"/>
+        </div>
+       </form>
+      </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+{%endblock%}

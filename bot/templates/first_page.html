@@ -1,0 +1,39 @@
+{%extends 'base.html'%}
+{% load static %}
+{% block content%}
+  <section class="jumbotron text-center">
+    <div class="container">
+
+    </br>
+  </br>
+      <h1>Hey, I'm a Chatbot!</h1>
+
+      <br />
+      <p>
+
+
+        <form action="{% url 'chat' %}">
+          <label for="name" >Enter your name :</label>
+          <br />
+          <input type="text" id="name" name="name" required size="30">
+          <br />
+          <br />
+          <input type="submit" value="Let's get started" />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </form>
+
+        <br />
+          <br />
+          <br />
+      </p>
+    </div>
+  </section>
+{%endblock%}
+
+
