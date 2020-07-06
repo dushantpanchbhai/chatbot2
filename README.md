@@ -3,19 +3,19 @@
 ### Team name: Finders
 
 ## Team members
-* Member-1 : Dushant Panchbhai 
-  Email : dushantrpanchbhai@gmail.com
-* Member-2 : Mithilesh Patil
-  Email : mithileshpatil2000@gmail.com
-  
+* Member-1: Dushant Panchbhai
+  Email: dushantrpanchbhai@gmail.com
+* Member-2: Mithilesh Patil
+  Email: mithileshpatil2000@gmail.com
+ 
 ## Mentors
 * Mentor-1 : Parth
 * Mentor-2 : Priyesh Vakharia
 
 ## Description
-In this project we had made a website constisting of chatbot functioning.
+In this project, we had made a website consisting of chatbot functioning.
 
-this chatbot model is based on the web scrapping. whatever the question we give to the chatbot, the chatbot do a google search based on the topic.
+this chatbot model is based on the web scrapping. whatever the question we give to the chatbot, the chatbot does a google search based on the topic.
 
 ```
         from googlesearch import search
@@ -35,17 +35,17 @@ after doing google search the bot will pickup the first hyperlink.extract the wh
         for element in article:
             article_text += '\n' + ''.join(element.findAll(text = True))
         first_sentence = article_text.split('\n')
-        #first_sentence consist of list of text of the webpage seprated by newline. 
+        #first_sentence consist of list of text of the webpage seprated by newline.
 ```
 
-we had also embedded some greeting syntax file which will deal with some greeting and natural conversaation questions like: who are you? , tell me a joke etc. 
+we had also embedded some greeting syntax file which will deal with some greeting and natural conversation questions like who are you? , tell me a joke, etc.
 ```
         def filter(question):
             # path1 is the address of greeting.yml file which consist of all the greeting syntax.
             a_yaml_file = open(path1)
             par = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 ```
-so, the model will first check if the entered question is greeting type or not. if the question is not greeting type then it will show result according to webscrapping
+so, the model will first check if the entered question is greeting type or not. if the question is not greeting type then it will show result according to web scrapping
 
 * GitHub repo link: [Link to repository](https://github.com/dushantpanchbhai/chatbot2.git)
 * Drive link: [Drive link here](https://drive.google.com/drive/folders/1CIqauP6lBFn7vU7RKxF5kjTZVj47IcwN?usp=sharing)
@@ -54,18 +54,18 @@ so, the model will first check if the entered question is greeting type or not. 
 
 1. Python
 2. Django
-3. Natural language processing libraries include Spacy,nltk.
-4. html,css and javascript.
+3. Natural language processing libraries include Spacy, Nltk.
+4. HTML,CSS, and javascript.
 
 ## Project Setup
-1. clone the project from the github [link](https://github.com/dushantpanchbhai/chatbot2.git)
-2. open terminal and create a virtual environment
+1. clone the project from the GitHub [link](https://github.com/dushantpanchbhai/chatbot2.git)
+2. open the terminal and create a virtual environment
 ```
       pip install virtualenv
       virtualenv [virtual environment name]
       *to enter virtual environment syntax is:
       source (environment name)/bin/activate
-      NOTE: you should be in the folder containing environment while doing this.
+      NOTE: you should be in the folder containing the environment while doing this.
 ```
 3. install the requirement.txt file present in the folder in that environment
 ```
@@ -78,7 +78,7 @@ so, the model will first check if the entered question is greeting type or not. 
 ## Usage
 1. In terminal activate the virtual environment
 
-2. enter the folder containing project in terminal using cd command
+2. enter the folder containing project in terminal using the cd command
 
 3. after that type this command and press enter:
 ```
@@ -87,10 +87,10 @@ so, the model will first check if the entered question is greeting type or not. 
 
 ## Applications
 
-* this project can help in finding the main solution of many question. so instead of surffing over internet,enter your question here and get the answer.
+* This project can help in finding the main solution to many questions. so instead of surfing over the internet, enter your question here and get the answer.
 
 ## Future scope
->This project can be build further by implementing voice search in it. also the model can be modified so as to get more effective and accurate answer
+>This project can build further by implementing a voice search in it. Also, the model can be modified so as to get a more effective and accurate answer
 
 ## Screenshots
 
@@ -111,4 +111,4 @@ so, the model will first check if the entered question is greeting type or not. 
 
 ![image6](https://drive.google.com/uc?export=view&id=1AnzzH-tpjVJ-RjK--H_-_xsTXwmoDkdC)
 
-
+for recording of chatbot [clickhere](https://drive.google.com/file/d/1TJXv5YZ3RqRLNuUdWdeF17kH29IWNOcV/view?usp=sharing)
