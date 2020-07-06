@@ -75,23 +75,30 @@ so, the model will first check if the entered question is greeting type or not. 
 ```
         python -m spacy download en_core_web_sm
 ```
->Include your project setup basics here. Steps for how someone else can setup your project on their machine. Add any relevant details as well.
-
 ## Usage
->Steps to run your project once its setup. If you have an app or website, list how the user can go about using it.
+1. In terminal activate the virtual environment
+
+2. enter the folder containing project in terminal using cd command
+
+3. after that type this command and press enter:
+```
+        python manage.py runserver
+```
 
 ## Applications
->How can your project do its part in solving a real-life problem? What are its possible applications? Decribe here.
+
+* this project can help in finding the main solution of many question. so instead of surffing over internet,enter your question here and get the answer.
 
 ## Future scope
->Mention ways in which the project can be improved and built upon in the future.
+>it can be build further by implementing voice search in it. also the model can be modified so as to get more effective and accurate answer
 
 ## Screenshots
-Add a few screenshots here to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
+
+
 
 You'll have to link the screenshots from your drive folder here.
 
-![Screenshot alt text](https://edtimes.in/wp-content/uploads/2018/09/NikeMeme10-640x633.jpg "Here is a screenshot")
+![page1](https://drive.google.com/file/d/12qPwZT_ceavDAiznWk1w6v83CBMYqULY/view?usp=sharing)
 
 Use this template as a guide for writing your documentation. Feel free to customize and adapt it for you project.
 For more Markdown syntax help, visit [here](https://www.markdownguide.org/basic-syntax/)
