@@ -1,4 +1,4 @@
-# Project-name
+# Project- info_chatbot
 
 ### Team name: Finders
 
