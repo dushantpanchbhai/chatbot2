@@ -14,24 +14,71 @@
 
 ## Description
 In this project we had made a website constisting of chatbot functioning.
-this chatbot model is based on the web scrapping. whatever the question we give to the chatbot, the chatbot do a google search based on the topic. after doing google search the bot will pickup the first hyperlink and do the natural language processing it and display the appropriate result based on it.
 
+this chatbot model is based on the web scrapping. whatever the question we give to the chatbot, the chatbot do a google search based on the topic.
 
-
-
-
-Add your project description here. Your project description should cover how your website/app works. That way you can convey what your project is without the need for anyone to view the code. A more detailed readme in your project repository is encouraged, which can include build and use instructions etc.
-
-* Use bullet points for any feature descriptions you may want to add
-
-```bash
-    Add appropriate code snippets here (4 spaces indent)
+```
+        from googlesearch import search
+        search_result_list = list(search(question, tld="co.in",start=0,num=10, stop=10, pause=2))
 ```
 
-Don't forget to replace the link here with **_your own Github repository_** link.
+after doing google search the bot will pickup the first hyperlink.extract the whole text and do the natural language processing it and display the appropriate result based on it.
+```     #getting page of particular hyperlink. here index means hyperlink number
+        page = requests.get(search_result_list[index])
+        tree = html.fromstring(page.content)
+        #prints the whole .html script
+        soup = BeautifulSoup(page.content, features="lxml")
+        
+        article_text = ''
+        article = soup.findAll('p')
+        
+        for element in article:
+            article_text += '\n' + ''.join(element.findAll(text = True))
+        first_sentence = article_text.split('\n')
+        #first_sentence consist of list of text of the webpage seprated by newline. 
+```
 
-Along with this, add the link of the drive folder that contains the app APK/Screenshots/Screen Recordings. If you have hosted your project on the web, add that link as well.
+we had also embedded some greeting syntax file which will deal with some greeting and natural conversaation questions like: who are you? , tell me a joke etc. 
+```
+        def filter(question):
+            # path1 is the address of greeting.yml file which consist of all the greeting syntax.
+            a_yaml_file = open(path1)
+            par = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
+```
+so, the model will first check if the entered question is greeting type or not. if the question is not greeting type then it will show result according to webscrapping
 
-* GitHub repo link: [Link to repository](https://github.com/your-repo-link)
+* GitHub repo link: [Link to repository](https://github.com/dushantpanchbhai/chatbot2.git)
 * Drive link: [Drive link here](https://drive.google.com/)
-* Website link: [Website link here](www.google.com)
+
+## Technology stack
+
+1. Python
+2. Django
+3. Natural language processing libraries include Spacy,nltk.
+4. html,css and javascript.
+
+## Project Setup
+1. clone the project from the github [link](https://github.com/dushantpanchbhai/chatbot2.git)
+2. create a virtual environment and install the requirement.txt file present in the folder.
+   ```
+   syntax: pip install -r requirements.txt
+>Include your project setup basics here. Steps for how someone else can setup your project on their machine. Add any relevant details as well.
+
+## Usage
+>Steps to run your project once its setup. If you have an app or website, list how the user can go about using it.
+
+## Applications
+>How can your project do its part in solving a real-life problem? What are its possible applications? Decribe here.
+
+## Future scope
+>Mention ways in which the project can be improved and built upon in the future.
+
+## Screenshots
+Add a few screenshots here to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
+
+You'll have to link the screenshots from your drive folder here.
+
+![Screenshot alt text](https://edtimes.in/wp-content/uploads/2018/09/NikeMeme10-640x633.jpg "Here is a screenshot")
+
+Use this template as a guide for writing your documentation. Feel free to customize and adapt it for you project.
+For more Markdown syntax help, visit [here](https://www.markdownguide.org/basic-syntax/)
