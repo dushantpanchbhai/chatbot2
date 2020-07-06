@@ -98,7 +98,7 @@ so, the model will first check if the entered question is greeting type or not. 
 
 You'll have to link the screenshots from your drive folder here.
 
-![awdawd](https://drive.google.com/file/d/12qPwZT_ceavDAiznWk1w6v83CBMYqULY/view?usp=sharing)
+![awdawd](https://drive.google.com/uc?export=view&id=12qPwZT_ceavDAiznWk1w6v83CBMYqULY)
 
 Use this template as a guide for writing your documentation. Feel free to customize and adapt it for you project.
 For more Markdown syntax help, visit [here](https://www.markdownguide.org/basic-syntax/)
