@@ -94,11 +94,21 @@ so, the model will first check if the entered question is greeting type or not. 
 
 ## Screenshots
 
+![image1](https://drive.google.com/uc?export=view&id=12qPwZT_ceavDAiznWk1w6v83CBMYqULY)
 
 
-You'll have to link the screenshots from your drive folder here.
+![image2](https://drive.google.com/uc?export=view&id=1iQ_Q-xKiklaa6b2bcroJ3dpOKln6QKqz)
 
-![awdawd](https://drive.google.com/uc?export=view&id=12qPwZT_ceavDAiznWk1w6v83CBMYqULY)
 
-Use this template as a guide for writing your documentation. Feel free to customize and adapt it for you project.
-For more Markdown syntax help, visit [here](https://www.markdownguide.org/basic-syntax/)
+![image3](https://drive.google.com/uc?export=view&id=1RjCcwxe_90M1s68eAecG6CIqhXRZB_3P)
+
+
+![image4](https://drive.google.com/uc?export=view&id=1NbLU7utpC0hpiGBsnv49HC_Mu2X1ZAD0)
+
+
+![image5](https://drive.google.com/uc?export=view&id=17FxFzzrmLpoBZ0uS_kzJcv09ofEzo1cc)
+
+
+![image6](https://drive.google.com/uc?export=view&id=1AnzzH-tpjVJ-RjK--H_-_xsTXwmoDkdC)
+
+
