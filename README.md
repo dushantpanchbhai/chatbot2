@@ -48,7 +48,7 @@ we had also embedded some greeting syntax file which will deal with some greetin
 so, the model will first check if the entered question is greeting type or not. if the question is not greeting type then it will show result according to webscrapping
 
 * GitHub repo link: [Link to repository](https://github.com/dushantpanchbhai/chatbot2.git)
-* Drive link: [Drive link here](https://drive.google.com/)
+* Drive link: [Drive link here](https://drive.google.com/drive/folders/1CIqauP6lBFn7vU7RKxF5kjTZVj47IcwN?usp=sharing)
 
 ## Technology stack
 
@@ -90,7 +90,7 @@ so, the model will first check if the entered question is greeting type or not. 
 * this project can help in finding the main solution of many question. so instead of surffing over internet,enter your question here and get the answer.
 
 ## Future scope
->it can be build further by implementing voice search in it. also the model can be modified so as to get more effective and accurate answer
+>This project can be build further by implementing voice search in it. also the model can be modified so as to get more effective and accurate answer
 
 ## Screenshots
 
