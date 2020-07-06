@@ -111,4 +111,5 @@ so, the model will first check if the entered question is greeting type or not. 
 
 ![image6](https://drive.google.com/uc?export=view&id=1AnzzH-tpjVJ-RjK--H_-_xsTXwmoDkdC)
 
+
 for recording of chatbot [clickhere](https://drive.google.com/file/d/1TJXv5YZ3RqRLNuUdWdeF17kH29IWNOcV/view?usp=sharing)
