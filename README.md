@@ -59,9 +59,22 @@ so, the model will first check if the entered question is greeting type or not. 
 
 ## Project Setup
 1. clone the project from the github [link](https://github.com/dushantpanchbhai/chatbot2.git)
-2. create a virtual environment and install the requirement.txt file present in the folder.
-   ```
-   syntax: pip install -r requirements.txt
+2. open terminal and create a virtual environment
+```
+      pip install virtualenv
+      virtualenv [virtual environment name]
+      *to enter virtual environment syntax is:
+      source (environment name)/bin/activate
+      NOTE: you should be in the folder containing environment while doing this.
+```
+3. install the requirement.txt file present in the folder in that environment
+```
+      syntax: pip install -r requirements.txt
+```
+4. In terminal enter following command to install 'en_core_web_sm'.
+```
+        python -m spacy download en_core_web_sm
+```
 >Include your project setup basics here. Steps for how someone else can setup your project on their machine. Add any relevant details as well.
 
 ## Usage
