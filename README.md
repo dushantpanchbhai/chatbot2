@@ -22,7 +22,7 @@ This chatbot model is based on the web scrapping. whatever the question we give 
         search_result_list = list(search(question, tld="co.in",start=0,num=10, stop=10, pause=2))
 ```
 
-after doing google search the bot will pickup the first hyperlink.extract the whole text and do the natural language processing it and display the appropriate result based on it.
+after google search the bot will pickup the first hyperlink and than extract the whole text and do the natural language processing it and display the appropriate result based on it.
 ```     #getting page of particular hyperlink. here index means hyperlink number
         page = requests.get(search_result_list[index])
         tree = html.fromstring(page.content)
