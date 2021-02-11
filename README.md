@@ -6,7 +6,7 @@
 * Member-1: Dushant Panchbhai
   Email: dushantrpanchbhai@gmail.com
 * Member-2: Mithilesh Patil
-  Email: mithileshpatil2000@gmail.com
+  Email: patilmithilesh023@gmail.com
  
 ## Mentors
 * Mentor-1 : Parth
