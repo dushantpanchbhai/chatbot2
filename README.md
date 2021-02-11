@@ -38,7 +38,7 @@ after google search the bot will pickup the first hyperlink and than extract the
         #first_sentence consist of list of text of the webpage seprated by newline.
 ```
 
-we had also embedded some greeting syntax file which will deal with some greeting and natural conversation questions like who are you? , tell me a joke, etc.
+we have also embedded some greeting syntax file which will deal with some greeting and natural conversation questions like who are you? , tell me a joke, etc.
 ```
         def filter(question):
             # path1 is the address of greeting.yml file which consist of all the greeting syntax.
