@@ -3,10 +3,10 @@
 ### Team name: Finders
 
 ## Team members
-* Member-1: Dushant Panchbhai
-  Email: dushantrpanchbhai@gmail.com
-* Member-2: Mithilesh Patil
+* Member-1: Mithilesh Patil
   Email: patilmithilesh023@gmail.com
+* Member-2: Dushant Panchbhai
+  Email: dushantrpanchbhai@gmail.com
  
 ## Mentors
 * Mentor-1 : Parth
