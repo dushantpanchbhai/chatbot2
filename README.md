@@ -45,7 +45,7 @@ we have also embedded some greeting syntax file which will deal with some greeti
             a_yaml_file = open(path1)
             par = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
 ```
-so, the model will first check if the entered question is greeting type or not. if the question is not greeting type then it will show result according to web scrapping
+so, the model first checks whether the entered question/sentence is greeting type or not. If the question/sentence is not greeting type then it will show result according to web scrapping.
 
 * GitHub repo link: [Link to repository](https://github.com/dushantpanchbhai/chatbot2.git)
 * Drive link: [Drive link here](https://drive.google.com/drive/folders/1CIqauP6lBFn7vU7RKxF5kjTZVj47IcwN?usp=sharing)
