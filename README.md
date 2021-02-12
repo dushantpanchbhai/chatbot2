@@ -13,7 +13,7 @@
 * Mentor-2 : Priyesh Vakharia
 
 ## Description
-In this project, have developed a website consisting of chatbot functioning.
+In this project,we have developed a website consisting of chatbot functioning.
 
 This chatbot model is based on the web scrapping. whatever the question we give to the chatbot, the chatbot does a google search based on the topic and return the output.
 
